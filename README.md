@@ -10,4 +10,4 @@
 
 ## Requirements
 
-Los requirements necesarios para el proyecto serian los que tenemos aqui adjuntados Requirements.txt [here](readme_complete/requirements.txt)
+Los requirements necesarios para el proyecto serian los que tenemos aqui adjuntados Requirements.txt [Requirements.txt](readme_complete/requirements)
