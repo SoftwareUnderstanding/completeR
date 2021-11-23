@@ -14,3 +14,9 @@ with open('C:/Users/Javier/Desktop/TFG/Programa/Requirements\directory_info.json
                     file.write(a+"\n")
                     
         file.close()
+        
+with open ('C:/Users/Javier/Desktop/TFG/Programa/README.md','a+') as h:
+        h.write('\n')
+        h.write('## Requiremens')
+        h.write('\n')
+        h.write('Los requirements necesarios para el proyecto serian los que tenemos aqui adjuntados [Requirements.txt](requirements.txt)')        
