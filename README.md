@@ -145,3 +145,7 @@ Los requirements necesarios para el proyecto serian los que tenemos aqui adjunta
 ## Version Control
 
 Aqui puede localizar las versiones que se han publicado del repositorio con los comentarios y fecha de publicación [Version.txt](requirements.txt)
+
+## Installation instructions
+
+Ejemplo de instalación.
