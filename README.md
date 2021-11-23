@@ -146,6 +146,10 @@ Los requirements necesarios para el proyecto serian los que tenemos aqui adjunta
 
 Aqui puede localizar las versiones que se han publicado del repositorio con los comentarios y fecha de publicación [Version.txt](requirements.txt)
 
-## Installation instructions
+## Installation_instructions
 
 Ejemplo de instalación.
+
+## Support 
+
+Ejemplo de Support
