@@ -52,6 +52,28 @@ print("Hay un",round(porcentaje_classes, 2),"% de clases documentadas", )
 print("Hay un",round(porcentaje_functions, 2),"% de funciones documentadas", )
 
 
+if porcentaje_classes <25:
+    colorc="red"
+if 25 > porcentaje_classes > 75:
+    colorc="orange"
+if porcentaje_classes > 75:
+    colorc="green"
+if porcentaje_functions <25:
+    colorf="red"
+if 25 > porcentaje_functions > 75:
+    colorf="orange"
+if porcentaje_functions > 75:
+    colorf="green"
+    
+with open ('C:/Users/Javier/Desktop/TFG/Programa/README.md','a+') as h:
+        h.write('\n')
+        h.write('## Documentation')
+        h.write('\n')
+        h.write('Here we show what percentage of the repositorys classes and functions are documented:\n')
+        h.write('| Tipo documento  | Porcentaje documentado |\n')
+        h.write('| ------------- | ------------- |\n')
+        h.write('| Classes  | [![Generic badge](https://img.shields.io/badge/CLASSES-'+str(round(porcentaje_classes,2))+'-'+colorc+'.svg)](https://shields.io/)  |\n')
+        h.write('| Functions  | [![Generic badge](https://img.shields.io/badge/CLASSES-'+str(round(porcentaje_functions,2))+'-'+colorf+'.svg)](https://shields.io/))|\n')
 
 
 
