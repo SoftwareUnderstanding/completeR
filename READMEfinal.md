@@ -122,8 +122,8 @@ Here we show what percentage of the repositorys classes and functions are docume
 
 | Document type  | Percentage |
 | ------------- | ------------- |
-| Classes  | [![Generic badge](https://img.shields.io/badge/CLASSES-45.23-orange.svg)](https://shields.io/)  |
-| Functions  | [![Generic badge](https://img.shields.io/badge/FUNCTIONS-95.7-green.svg)](https://shields.io/)|
+| Classes  | [![Generic badge](https://img.shields.io/badge/CLASSES-5.03-red.svg)](https://shields.io/)  |
+| Functions  | [![Generic badge](https://img.shields.io/badge/CLASSES-15.61-red.svg)](https://shields.io/)|
 
 
 ## Requiremens
