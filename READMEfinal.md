@@ -118,18 +118,36 @@ This project falls under the MIT license.
 
 ## Documentation
 
-Ejemplo de que porcentaje de las clases/funciones tienen implementada documentación:
+Here we show what percentage of the repositorys classes and functions are documented:
 
-| Tipo documento  | Porcentaje documentado |
+| Document type  | Percentage |
 | ------------- | ------------- |
-| Classes  | ![alt text](https://cdn.jsdelivr.net/gh/jongracecox/anybadge@master/examples/awesomeness.svg)  |
-| Functions  | ![alt text](https://cdn.jsdelivr.net/gh/jongracecox/anybadge@master/examples/awesomeness.svg)|
+| Classes  | [![Generic badge](https://img.shields.io/badge/CLASSES-5.03-red.svg)](https://shields.io/)  |
+| Functions  | [![Generic badge](https://img.shields.io/badge/FUNCTIONS-15.61-red.svg)](https://shields.io/))|
 
 
-## Requirements
+## Requiremens
+The necessary requirements for the project would be those that we have here attached [Requirements.txt](requirements.txt)
 
-Los requirements necesarios para el proyecto serian los que tenemos aqui adjuntados [Requirements.txt](requirements.txt)
 
+## Notebooks
+You can try the following examples in Binder:
+ 1. Example:[![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/TFidf-Logistic.ipynb)
+ 2. Example:[![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/initial_baseline.ipynb)
+ 3. Example:[![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/TFidf-NB.ipynb)
+ 4. Example:[![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/Classifier%20Pipelines.ipynb)
+ 5. Example:[![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/header_analysis/Wordnet.ipynb)
+ 6. Example:[![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/notebook/SOMEF%20Usage%20Example.ipynb)
+
+## Dockerfile
+First build the image using the Dockerfile in project folder:
+```
+docker build -t somef somefimage . 
+```
+Then, we can execute the aplication with:
+```
+docker run somefimage 
+```
 
 ## Languajes 
 ```
