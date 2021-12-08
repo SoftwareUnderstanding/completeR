@@ -132,12 +132,12 @@ The necessary requirements for the project would be those that we have here atta
 
 ## Notebooks
 You can try the following examples in Binder:
- 1. Example:[![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/TFidf-Logistic.ipynb)
- 2. Example:[![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/initial_baseline.ipynb)
- 3. Example:[![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/TFidf-NB.ipynb)
- 4. Example:[![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/Classifier%20Pipelines.ipynb)
- 5. Example:[![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/header_analysis/Wordnet.ipynb)
- 6. Example:[![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/notebook/SOMEF%20Usage%20Example.ipynb)
+ 1. TFidf-Logistic.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/TFidf-Logistic.ipynb)
+ 2. initial_baseline.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/initial_baseline.ipynb)
+ 3. TFidf-NB.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/TFidf-NB.ipynb)
+ 4. Classifier%20Pipelines.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/Classifier%20Pipelines.ipynb)
+ 5. Wordnet.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/header_analysis/Wordnet.ipynb)
+ 6. SOMEF%20Usage%20Example.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/notebook/SOMEF%20Usage%20Example.ipynb)
 
 ## Dockerfile
 First build the image using the Dockerfile in project folder:
@@ -149,15 +149,3 @@ Then, we can execute the aplication with:
 docker run somefimage 
 ```
 
-## Languajes 
-```
-        "Java"
-        "XSLT"
-        "CSS"
-        "JavaScript"
-        "HTML"
-        "Dockerfile"
-```
-## Version Control
-
-Aqui puede localizar las versiones que se han publicado del repositorio con los comentarios y fecha de publicación [Version.txt](requirements.txt)
