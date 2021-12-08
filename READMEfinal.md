@@ -122,8 +122,8 @@ Here we show what percentage of the repositorys classes and functions are docume
 
 | Document type  | Percentage |
 | ------------- | ------------- |
-| Classes  | ![Generic badge](https://img.shields.io/badge/CLASSES-5.03-red.svg)  |
-| Functions  | ![Generic badge](https://img.shields.io/badge/FUNCTIONS-15.61-red.svg)|
+| Classes  | [![Generic badge](https://img.shields.io/badge/CLASSES-5.03-red.svg)](https://shields.io/)  |
+| Functions  | [![Generic badge](https://img.shields.io/badge/FUNCTIONS-15.61-red.svg)](https://shields.io/)|
 
 
 ## Requiremens
@@ -148,4 +148,5 @@ Then, we can execute the aplication with:
 ```
 docker run somefimage 
 ```
-
+## License
+The licese used is MIT License: [![License](https://img.shields.io/badge/LICENSE-MITLicense-blue.svg)](https://api.github.com/licenses/mit)
