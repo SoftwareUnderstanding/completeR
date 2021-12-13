@@ -62,11 +62,8 @@ docker run $FLAGS somefimage $PARAMS
 >**NOTE:** Please, replace $FLAGS and $PARAMS with the right invocation of the image
 
 
-## Installation 
-```
-#Install
-pip install -e . 
-```
+## Software Invocation
+
 ```
 manimgl $PARAMS 
 ```
@@ -75,7 +72,6 @@ manimgl $PARAMS
 Or
 
 ```
-#Install
 manim-render $PARAMS 
 ```
 >**NOTE**: You can try the $PARAMS of the software
