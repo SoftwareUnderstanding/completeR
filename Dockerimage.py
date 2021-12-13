@@ -38,7 +38,7 @@ class DockerImage:
                 h.write('## Dockerfile\n')
                 h.write('Path of the Dockerfile:\n')
                 h.write("```\n")
-                h.write(''+path+' \n')
+                h.write('cd '+path+' \n')
                 h.write("```\n") 
                 h.write('You can see the Dockerfile [here](Dockerfile.txt) \n')
                 h.write('\n')
