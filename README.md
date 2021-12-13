@@ -46,7 +46,7 @@ Then, we can execute the aplication with:
 ```
 docker run $FLAGS somefimage $PARAMS 
 ```
-Please, replace $FLAGS and $PARAMS with the right invocation of the image
+>**NOTE:** Please, replace $FLAGS and $PARAMS with the right invocation of the image
 
 ## Installation 
 ```
