@@ -57,7 +57,7 @@ You can try the following examples in Binder:
 ## Dockerfile
 Path of the Dockerfile:
 ```
-C:/Users/Javier/Desktop/TFG/somef 
+cd C:/Users/Javier/Desktop/TFG/somef 
 ```
 You can see the Dockerfile [here](Dockerfile.txt) 
 
