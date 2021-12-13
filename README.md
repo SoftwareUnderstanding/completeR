@@ -1,11 +1,17 @@
 
-
 ## Documentation
 Here we show what percentage of the repositorys classes and functions are documented:
 | Tipo documento  | Porcentaje documentado |
 | ------------- | ------------- |
 | Classes  | [![Generic badge](https://img.shields.io/badge/CLASSES-5.03-red.svg)](https://shields.io/)  |
-| Functions  | [![Generic badge](https://img.shields.io/badge/FUNCTIONS-15.61-red.svg)](https://shields.io/))|
+| Functions  | [![Generic badge](https://img.shields.io/badge/FUNCTIONS-15.61-red.svg)](https://shields.io/)|
+
+## Requirements
+The necessary requirements for the project would be those that we have here attached [Requirements.txt](requirements.txt)
+For the instalation of requirements:
+```
+pip install -r requirements.txt
+```
 ## License
 The licese used is MIT License: [![License](https://img.shields.io/badge/LICENSE-MITLicense-blue.svg)](https://api.github.com/licenses/mit)
 
@@ -38,6 +44,11 @@ You can try the following examples in Binder:
  5. Wordnet.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/header_analysis/Wordnet.ipynb)
  6. SOMEF%20Usage%20Example.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/notebook/SOMEF%20Usage%20Example.ipynb)
 ## Dockerfile
+Path of the Dockerfile:
+```
+C:/Users/Javier/Desktop/TFG/somef 
+```
+You can see the Dockerfile[here](Dockerfile.txt)
 First build the image using the Dockerfile in project folder:
 ```
 docker build -t somef somefimage . 
@@ -52,6 +63,8 @@ docker run $FLAGS somefimage $PARAMS
 ```
 #Install
 pip install -e . 
+```
+```
 manimgl $PARAMS 
 ```
 >**NOTE**: You can try the $PARAMS of the software
