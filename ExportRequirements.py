@@ -12,12 +12,17 @@ class ExportRequirements:
             for name in filenames:
                 #print(os.path.join(name))
                 if os.path.join(name) == "requirements.txt":
-                    #print("Existe requiremets")
+                    print("Existe requiremets")
                     existe = 1
                     path = os.path.join(dirpath)
-                    #print (os.path.join(dirpath))
+                    print (path)
+                    with open('C:/Users/Javier/Desktop/TFG/Programa/ProyectoUnificado/NewPythonProject/src/Pruebas/Requirements.txt', 'r') as file1:
+                        with open('C:/Users/Javier/Desktop/TFG/Programa/ProyectoUnificado/NewPythonProject/src/Pruebas/Requirements1.txt', 'r') as file2:
+                            difference = set(file1).difference(file2)
                     break
-            
+
+                            
+                        
         with open('C:/Users/Javier/Desktop/TFG/Programa/ProyectoUnificado/NewPythonProject/src/Requirements/directory_info.json') as json_file:
             data = json.load(json_file)
             if existe == 0:
@@ -31,7 +36,6 @@ class ExportRequirements:
                     
                 file.close()
 
-                        
 
 
         with open ('C:/Users/Javier/Desktop/TFG/Programa/ProyectoUnificado/NewPythonProject/src/README.md','a+') as h:
@@ -43,4 +47,12 @@ class ExportRequirements:
             h.write("```\n")
             h.write('pip install -r requirements.txt\n')
             h.write("```\n")
+            h.write('>**NOTE:** The following differences in requirements have been found: \n')
+            for i in difference:
+                print(i)
+                h.write('>'+i+',')
+            h.write('\n')  
+            h.write('\n')
+            h.write('>Check your document in case they need to be added.\n')
+            h.write('\n')
     pass
