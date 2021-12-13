@@ -13,6 +13,11 @@ For the instalation of requirements:
 ```
 pip install -r requirements.txt
 ```
+>**NOTE:** The following differences in requirements have been found: setuptools, requests, json2html, graphviz.
+>
+>Check your document in case they need to be added.
+
+
 ## License
 The licese used is MIT License: [![License](https://img.shields.io/badge/LICENSE-MITLicense-blue.svg)](https://api.github.com/licenses/mit)
 
