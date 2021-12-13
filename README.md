@@ -53,10 +53,17 @@ Please, replace $FLAGS and $PARAMS with the right invocation of the image
 #Install
 pip install -e . 
 manimgl $PARAMS 
->**NOTE**: You can try the $PARAMS of the software
-manim-render $PARAMS 
->**NOTE**: You can try the $PARAMS of the software
 ```
+>**NOTE**: You can try the $PARAMS of the software
+
+Or
+
+```
+#Install
+manim-render $PARAMS 
+```
+>**NOTE**: You can try the $PARAMS of the software
+
 
 ## Software Type
 This software is a package: 
