@@ -13,8 +13,13 @@ For the instalation of requirements:
 ```
 pip install -r requirements.txt
 ```
->**NOTE:** The following differences in requirements have been found: setuptools, requests, json2html, graphviz.
->
+>**NOTE:** The following differences in requirements have been found: 
+json2html
+,setuptools
+,graphviz
+,requests
+
+
 >Check your document in case they need to be added.
 
 
