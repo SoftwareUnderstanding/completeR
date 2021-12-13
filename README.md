@@ -48,7 +48,8 @@ Path of the Dockerfile:
 ```
 C:/Users/Javier/Desktop/TFG/somef 
 ```
-You can see the Dockerfile[here](Dockerfile.txt)
+You can see the Dockerfile [here](Dockerfile.txt) 
+
 First build the image using the Dockerfile in project folder:
 ```
 docker build -t somef somefimage . 
@@ -58,6 +59,7 @@ Then, we can execute the aplication with:
 docker run $FLAGS somefimage $PARAMS 
 ```
 >**NOTE:** Please, replace $FLAGS and $PARAMS with the right invocation of the image
+
 
 ## Installation 
 ```
