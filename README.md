@@ -1,10 +1,10 @@
 
 ## Documentation
 Here we show what percentage of the repositorys classes and functions are documented:
-| Tipo documento  | Porcentaje documentado |
+| Type ||
 | ------------- | ------------- |
-| Classes  | [![Generic badge](https://img.shields.io/badge/CLASSES-5.03-red.svg)](https://shields.io/)  |
-| Functions  | [![Generic badge](https://img.shields.io/badge/FUNCTIONS-15.61-red.svg)](https://shields.io/)|
+| Classes  | [![Generic badge](https://img.shields.io/badge/CLASSES-5.03%25-red.svg)](https://shields.io/)  |
+| Functions  | [![Generic badge](https://img.shields.io/badge/FUNCTIONS-15.61%25-red.svg)](https://shields.io/)|
 
 ## Requirements
 The necessary requirements for the project would be those that we have here attached [Requirements.txt](requirements.txt)
@@ -48,12 +48,15 @@ executable_example
 ```
 ## Notebooks
 You can try the following examples in Binder:
- 1. TFidf-Logistic.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/TFidf-Logistic.ipynb)
- 2. initial_baseline.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/initial_baseline.ipynb)
- 3. TFidf-NB.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/TFidf-NB.ipynb)
- 4. Classifier%20Pipelines.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/Classifier%20Pipelines.ipynb)
- 5. Wordnet.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/experiments/header_analysis/Wordnet.ipynb)
- 6. SOMEF%20Usage%20Example.ipynb: [![Binder](https://mybinder.org/badge_logo.svg)](https://raw.githubusercontent.com/KnowledgeCaptureAndDiscovery/somef/master/notebook/SOMEF%20Usage%20Example.ipynb)
+| Name  | Binder |
+| ------------- | ------------- |
+| TFidf-Logistic.ipynb | ![Binder](https://mybinder.org/badge_logo.svg)|
+| initial_baseline.ipynb | ![Binder](https://mybinder.org/badge_logo.svg)|
+| TFidf-NB.ipynb | ![Binder](https://mybinder.org/badge_logo.svg)|
+| Classifier%20Pipelines.ipynb | ![Binder](https://mybinder.org/badge_logo.svg)|
+| Wordnet.ipynb | ![Binder](https://mybinder.org/badge_logo.svg)|
+| SOMEF%20Usage%20Example.ipynb | ![Binder](https://mybinder.org/badge_logo.svg)|
+
 ## Dockerfile
 Path of the Dockerfile:
 ```
