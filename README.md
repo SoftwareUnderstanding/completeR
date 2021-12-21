@@ -77,6 +77,7 @@ docker run $FLAGS somefimage $PARAMS
 
 ## Software Invocation
 
+To invoke the software, you need to use the following command call:
 ```
 manimgl $PARAMS 
 ```
