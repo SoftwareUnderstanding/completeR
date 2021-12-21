@@ -1,8 +1,8 @@
 import json
 
 class ControlDocumentation:
-    def control(self):
-        with open('C:/Users/Javier/Desktop/TFG/Programa/ProyectoUnificado/NewPythonProject/src/directory_info.json') as json_file:
+    def control(self,direct_out):
+        with open('C:/Users/Javier/Desktop/TFG/Programa/ProyectoUnificado/NewPythonProject/src/SalidasAux/directory_info.json') as json_file:
             total_classes = 0
             total_functions = 0
             total_doc_classes = 0
@@ -45,13 +45,13 @@ class ControlDocumentation:
         if porcentaje_functions > 75:
             colorf="green"
     
-        with open ('C:/Users/Javier/Desktop/TFG/Programa/ProyectoUnificado/NewPythonProject/src/README.md','a+') as h:
+        with open (direct_out+'/README.md','a+') as h:
             h.write('\n')
             h.write('## Documentation')
             h.write('\n')
             h.write('Here we show what percentage of the repositorys classes and functions are documented:\n')
             h.write('| Tipo documento  | Porcentaje documentado |\n')
             h.write('| ------------- | ------------- |\n')
-            h.write('| Classes  | [![Generic badge](https://img.shields.io/badge/CLASSES-'+str(round(porcentaje_classes,2))+'-'+colorc+'.svg)](https://shields.io/)  |\n')
-            h.write('| Functions  | [![Generic badge](https://img.shields.io/badge/FUNCTIONS-'+str(round(porcentaje_functions,2))+'-'+colorf+'.svg)](https://shields.io/)|\n')
-    pass        
+            h.write('| Classes  | [![Generic badge](https://img.shields.io/badge/CLASSES-'+str(round(porcentaje_classes,2))+'%25-'+colorc+'.svg)](https://shields.io/)  |\n')
+            h.write('| Functions  | [![Generic badge](https://img.shields.io/badge/FUNCTIONS-'+str(round(porcentaje_functions,2))+'%25-'+colorf+'.svg)](https://shields.io/)|\n')
+    pass     
