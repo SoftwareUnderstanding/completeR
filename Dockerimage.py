@@ -2,10 +2,10 @@ import json
 import os
 import sys
 class DockerImage:
-    def Docker(self):
+    def Docker(self,direct_in,direct_out):
         existe = 0
         path = ''
-        for dirpath, dirnames, filenames in os.walk("C:/Users/Javier/Desktop/TFG/somef"):
+        for dirpath, dirnames, filenames in os.walk("direct_in"):
             #print("Ruta actual:", dirpath)
             #print("Carpetas:", ", ".join(dirnames))
             #print("Archivos:", ", ".join(filenames))
@@ -17,7 +17,7 @@ class DockerImage:
                     #print (os.path.join(dirpath))
                     path = os.path.join(dirpath)
                     break
-        with open('C:/Users/Javier/Desktop/TFG/Programa/ProyectoUnificado/NewPythonProject/src/test(somef).json') as json_file:
+        with open('C:/Users/Javier/Desktop/TFG/Programa/ProyectoUnificado/NewPythonProject/src/SalidasAux/test(somef).json') as json_file:
             data = json.load(json_file)
             encontrado = 0
             nombre = ""
@@ -32,7 +32,7 @@ class DockerImage:
                     nombre = files['excerpt']
                             
             
-        with open ('C:/Users/Javier/Desktop/TFG/Programa/ProyectoUnificado/NewPythonProject/src/README.md','a+') as h:                        
+        with open (direct_out+'/README.md','a+') as h:                        
             if encontrado == 0:
                 image= nombre+"image"
                 h.write('## Dockerfile\n')
@@ -52,6 +52,5 @@ class DockerImage:
                 h.write("```\n")
                 h.write(">**NOTE:** Please, replace $FLAGS and $PARAMS with the right invocation of the image\n")
     pass            
-
 
 
