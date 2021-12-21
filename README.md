@@ -27,25 +27,8 @@ json2html
 The licese used is MIT License: [![License](https://img.shields.io/badge/LICENSE-MITLicense-blue.svg)](https://api.github.com/licenses/mit)
 
 ## Missing fields
-Consider adding the following sections in your readme: 
-```
-citation
-acknowledgement
-run
-download
-requirement
-contact
-description
-contributor
-usage
-faq
-support
-identifier
-hasExecutableNotebook
-hasBuildFile
-hasDocumentation
-executable_example
-```
+Consider adding the following sections in your readme: [Missing.txt](Missing.txt)
+
 ## Notebooks
 You can try the following examples in Binder:
 | Name  | Binder |
