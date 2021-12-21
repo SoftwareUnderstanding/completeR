@@ -2,10 +2,13 @@ import json
 import os
 
 class ExportRequirements:
-    def exportReq(self):
+    def exportReq(self,direct_in,direct_out):
         existe = 0
         path = ''
-        for dirpath, dirnames, filenames in os.walk("C:/Users/Javier/Desktop/TFG/somef"):
+        
+
+        
+        for dirpath, dirnames, filenames in os.walk(direct_in):
             #print("Ruta actual:", dirpath)
             #print("Carpetas:", ", ".join(dirnames))
             #print("Archivos:", ", ".join(filenames))
@@ -21,12 +24,10 @@ class ExportRequirements:
                             difference = set(file1).difference(file2)
                     break
 
-                            
-                        
-        with open('C:/Users/Javier/Desktop/TFG/Programa/ProyectoUnificado/NewPythonProject/src/Requirements/directory_info.json') as json_file:
+        with open('C:/Users/Javier/Desktop/TFG/Programa/ProyectoUnificado/NewPythonProject/src/SalidasAux/directory_info.json') as json_file:
             data = json.load(json_file)
             if existe == 0:
-                file = open("C:/Users/Javier/Desktop/TFG/Programa/ProyectoUnificado/NewPythonProject/src/Requirements/Requirements.txt", "w")
+                file = open(direct_out+"Requirements.txt", "w")
                 for directory, files in data.items():
                     #print (directory)
                     if directory == "requirements":
@@ -34,11 +35,12 @@ class ExportRequirements:
                             print (a)
                             file.write(a+"\n")
                     
-                file.close()
+                file.close()                            
+                        
 
 
 
-        with open ('C:/Users/Javier/Desktop/TFG/Programa/ProyectoUnificado/NewPythonProject/src/README.md','a+') as h:
+        with open (direct_out+'/README.md','a+') as h:
             h.write('\n')
             h.write('## Requirements')
             h.write('\n')
