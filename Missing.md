@@ -1,0 +1,16 @@
+citation
+acknowledgement
+run
+download
+requirement
+contact
+description
+contributor
+usage
+faq
+support
+identifier
+hasExecutableNotebook
+hasBuildFile
+hasDocumentation
+executable_example
