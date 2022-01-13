@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+completer/ControlDocumentation.py
+completer/DockerImage.py
+completer/ExportRequirements - copia.py
+completer/ExportRequirements.py
+completer/License.py
+completer/MissingFields.py
+completer/Notebooks.py
+completer/Software.py
+completer/__init__.py
+completer.egg-info/PKG-INFO
+completer.egg-info/SOURCES.txt
+completer.egg-info/dependency_links.txt
+completer.egg-info/top_level.txt
