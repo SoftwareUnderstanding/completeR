@@ -1,0 +1,10 @@
+./idea/*
+completer.egg-info/*
+env_3.9/*
+build/*
+dist/*
+env/*
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
