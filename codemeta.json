@@ -1,36 +1,47 @@
 {
-    "@context": "https://w3id.org/codemeta/3.0",
-    "@type": "SoftwareSourceCode",
-    "codeRepository": "https://github.com/SoftwareUnderstanding/completeR",
-    "issueTracker": "https://github.com/SoftwareUnderstanding/completeR/issues",
-    "dateCreated": "2021-10-03",
-    "dateModified": "2022-02-21",
-    "downloadUrl": "https://github.com/SoftwareUnderstanding/completeR/releases",
-    "name": "completeR",
-    "keywords": "complete, metadata, python, readme",
-    "programmingLanguage": [
-        "Python"
-    ],
-    "softwareRequirements": [
-        {
-            "name": "git+git://github.com/SoftwareUnderstanding/code_inspector.git#egg=code_inspector"
-        },
-        {
-            "name": "somef"
-        }
-    ],
-    "author": [
-        {
-            "@type": "Organization",
-            "@id": "https://github.com/SoftwareUnderstanding"
-        },
-        {
-            "@type": "Person",
-            "name": ""
-        }
-    ],
-    "readme": "https://raw.githubusercontent.com/SoftwareUnderstanding/completeR/main/README.md",
-    "description": [
-        "A python package that suggests how to complete a readme file"
-    ]
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": [
+    "SoftwareSourceCode",
+    "SoftwareApplication"
+  ],
+  "codeRepository": "https://github.com/SoftwareUnderstanding/completeR",
+  "issueTracker": "https://github.com/SoftwareUnderstanding/completeR/issues",
+  "dateCreated": "2021-10-03",
+  "dateModified": "2022-02-21",
+  "downloadUrl": "https://github.com/SoftwareUnderstanding/completeR/releases",
+  "name": "completeR",
+  "keywords": [
+    "complete",
+    "metadata",
+    "python",
+    "readme"
+  ],
+  "programmingLanguage": [
+    "Python"
+  ],
+  "softwareRequirements": [
+    {
+      "name": "git+git://github.com/SoftwareUnderstanding/code_inspector.git#egg=code_inspector",
+      "@type": "SoftwareApplication"
+    },
+    {
+      "name": "somef",
+      "@type": "SoftwareApplication"
+    }
+  ],
+  "author": [
+    {
+      "@type": "Organization",
+      "identifier": "SoftwareUnderstanding",
+      "@id": "https://github.com/SoftwareUnderstanding"
+    },
+    {
+      "@type": "Person",
+      "name": ""
+    }
+  ],
+  "readme": "https://raw.githubusercontent.com/SoftwareUnderstanding/completeR/main/README.md",
+  "description": [
+    "A python package that suggests how to complete a readme file"
+  ]
 }
